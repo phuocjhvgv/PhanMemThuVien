@@ -24,8 +24,7 @@ namespace DOAN.GUI
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Ban Co Muon Thoat Khong?", "Thong Bao", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                Application.Exit();
+
         }
 
         private void addNewBookToolStripMenuItem_Click(object sender, EventArgs e)
@@ -68,6 +67,12 @@ namespace DOAN.GUI
         {
             frm_ThongTinSinhVien tt = new frm_ThongTinSinhVien();
             tt.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Ban Co Muon Thoat Khong?", "Thong Bao", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                Application.Exit();
         }
     }
 }

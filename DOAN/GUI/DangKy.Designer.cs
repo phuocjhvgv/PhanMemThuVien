@@ -50,6 +50,7 @@
             this.chkHienMatKhau.TabIndex = 36;
             this.chkHienMatKhau.Text = "Hiện mật khẩu";
             this.chkHienMatKhau.UseVisualStyleBackColor = true;
+            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged_1);
             // 
             // txtidtaikhoan
             // 
@@ -84,6 +85,7 @@
             this.button2.TabIndex = 33;
             this.button2.Text = "Thoát";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // btn_Dky
             // 
@@ -107,8 +109,10 @@
             this.txt_MatKhau.ForeColor = System.Drawing.Color.Black;
             this.txt_MatKhau.Location = new System.Drawing.Point(296, 336);
             this.txt_MatKhau.Name = "txt_MatKhau";
+            this.txt_MatKhau.PasswordChar = '*';
             this.txt_MatKhau.Size = new System.Drawing.Size(222, 23);
             this.txt_MatKhau.TabIndex = 31;
+            this.txt_MatKhau.UseSystemPasswordChar = true;
             // 
             // label3
             // 
