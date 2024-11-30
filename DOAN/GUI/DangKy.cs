@@ -17,61 +17,124 @@ namespace DOAN.GUI
         {
             InitializeComponent();
         }
-		DAL.LopDungChung lopchung;
-		private void button2_Click(object sender, EventArgs e)
-		{
-			if (MessageBox.Show("Ban Co Muon Thoat Khong?", "Thong Bao", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-				Application.Exit();
-		}
+        DAL.LopDungChung lopchung;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                frm_DangNhap frmDangNhap = new frm_DangNhap();
+                frmDangNhap.ShowDialog();
+                this.Close();
+            }
+        }
 
-		private void btn_Dky_Click(object sender, EventArgs e)
-		{
-			string tenDangNhap = txt_TaiKhoan.Text;
-			string matKhau = txt_MatKhau.Text;
+        private void btn_Dky_Click(object sender, EventArgs e)
+        {
+            string idtaikhoan = txtidtaikhoan.Text;
+            string tenDangNhap = txt_TaiKhoan.Text;
+            string matKhau = txt_MatKhau.Text;
 
-			if (string.IsNullOrEmpty(tenDangNhap) || string.IsNullOrEmpty(matKhau))
-			{
-				MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-				return;
-			}
+            if (string.IsNullOrEmpty(idtaikhoan) || string.IsNullOrEmpty(tenDangNhap) || string.IsNullOrEmpty(matKhau))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-			string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Coding\.net\backup\DOAN\DOAN\QLThuVien.mdf;Integrated Security=True";
-		
-			string query = "INSERT INTO DangNhap (TenDangNhap, MatKhau) VALUES (@TenDangNhap, @MatKhau)";
-			using (SqlConnection conn = new SqlConnection(connectionString))
-			{
-				try
-				{
-					conn.Open();
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Coding\CONGCU\DOAN\QLThuVien.mdf;Integrated Security=True";
 
-					using (SqlCommand cmd = new SqlCommand(query, conn))
-					{
-						cmd.Parameters.AddWithValue("@TenDangNhap", tenDangNhap);
-						cmd.Parameters.AddWithValue("@MatKhau", matKhau);
 
-						int result = cmd.ExecuteNonQuery();
+            string query = "INSERT INTO TaiKhoan (idtaikhoan, tentk, mk) VALUES (@idtaikhoan, @tentk, @mk)";
 
-						if (result > 0)
-						{
-							MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-						}
-						else
-						{
-							MessageBox.Show("Đăng ký thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-						}
-					}
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show("Lỗi kết nối: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				}
-			}
-		}
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
 
-		private void frm_DangKy_Load(object sender, EventArgs e)
-		{
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idtaikhoan", tenDangNhap);
+                        cmd.Parameters.AddWithValue("@tentk", tenDangNhap);
+                        cmd.Parameters.AddWithValue("@mk", matKhau);
 
-		}
-	}
-	}
+                        int result = cmd.ExecuteNonQuery();
+
+                        if (result > 0)
+                        {
+                            MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Đăng ký thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi kết nối: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+        private void frm_DangKy_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkHienMatKhau.Checked)
+            {
+
+                txt_MatKhau.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txt_MatKhau.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void txtidtaikhoan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_MatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_TaiKhoan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Dky_Click_1(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
 

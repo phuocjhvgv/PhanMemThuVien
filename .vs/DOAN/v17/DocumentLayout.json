@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\gui\\chitietthuetrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\chitietthuetrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BangChinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
+              "RelativeDocumentMoniker": "DOAN\\GUI\\BangChinh.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs [Design]",
+              "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:15:26.973Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietThueTraSach.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\ChiTietThueTraSach.cs",
+              "RelativeDocumentMoniker": "DOAN\\GUI\\ChiTietThueTraSach.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
+              "RelativeToolTip": "DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:15:25.578Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
