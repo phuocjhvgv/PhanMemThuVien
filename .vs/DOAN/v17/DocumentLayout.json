@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "DOAN\\DAL\\LopDungChung.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\LopDungChung.cs",
               "RelativeToolTip": "DOAN\\DAL\\LopDungChung.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T23:08:07.426Z",
               "EditorCaption": ""
@@ -63,7 +63,8 @@
               "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:07:46.047Z"
+              "WhenOpened": "2024-11-30T23:07:46.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:07:43.222Z"
+              "WhenOpened": "2024-11-30T23:07:43.222Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -85,7 +87,8 @@
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:15:26.973Z"
+              "WhenOpened": "2024-11-30T14:15:26.973Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -96,7 +99,8 @@
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:15:25.578Z"
+              "WhenOpened": "2024-11-30T14:15:25.578Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
