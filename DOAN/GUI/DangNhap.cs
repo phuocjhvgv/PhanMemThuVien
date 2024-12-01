@@ -74,5 +74,10 @@ namespace DOAN.GUI
 				txt_MatKhau.UseSystemPasswordChar = true;
 			}
 		}
-	}
+
+        private void frm_DangNhap_Load_1(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
