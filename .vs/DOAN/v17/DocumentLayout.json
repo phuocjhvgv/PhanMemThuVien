@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\dal\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\dal\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\gui\\chitietthuetrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\chitietthuetrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\chitietthuetrasach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,32 +41,62 @@
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LopDungChung.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\LopDungChung.cs",
+              "RelativeDocumentMoniker": "DOAN\\DAL\\LopDungChung.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\LopDungChung.cs",
+              "RelativeToolTip": "DOAN\\DAL\\LopDungChung.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:08:07.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DOAN\\GUI\\DangNhap.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:07:46.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DOAN\\GUI\\DangNhap.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:07:43.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BangChinh.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\BangChinh.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:15:26.973Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-30T14:15:26.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ChiTietThueTraSach.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\ChiTietThueTraSach.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\ChiTietThueTraSach.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\ChiTietThueTraSach.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:15:25.578Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-30T14:15:25.578Z"
             }
           ]
         }
