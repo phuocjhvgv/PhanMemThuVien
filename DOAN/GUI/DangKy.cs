@@ -106,7 +106,7 @@ namespace DOAN.GUI
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@idtaikhoan", tenDangNhap);
+                        cmd.Parameters.AddWithValue("@idtaikhoan", idtaikhoan);
                         cmd.Parameters.AddWithValue("@tentk", tenDangNhap);
                         cmd.Parameters.AddWithValue("@mk", matKhau);
 
