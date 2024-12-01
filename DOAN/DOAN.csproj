@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>DOAN</RootNamespace>
     <AssemblyName>DOAN</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -98,18 +98,6 @@
     <Compile Include="GUI\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\frm_QuanLyPhieuMuon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frm_QuanLyPhieuMuon.Designer.cs">
-      <DependentUpon>frm_QuanLyPhieuMuon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\frm_QuanLySach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frm_QuanLySach.Designer.cs">
-      <DependentUpon>frm_QuanLySach.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\SachDaThue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,12 +147,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frm_QuanLyPhieuMuon.resx">
-      <DependentUpon>frm_QuanLyPhieuMuon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frm_QuanLySach.resx">
-      <DependentUpon>frm_QuanLySach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SachDaThue.resx">
       <DependentUpon>SachDaThue.cs</DependentUpon>
