@@ -16,7 +16,7 @@ namespace DOAN.DAL
 
         public int DangNhap(String user, String matkhau)
         {
-            string sqldn = "Select count(*) from DangNhap where TenDangNhap = '" + user + "'and MatKhau= '" + matkhau + "'";
+            string sqldn = "Select count(*) from TaiKhoan where tentk = '" + user + "'and mk= '" + matkhau + "'";
             int kq = (int)lopchung.Scalar(sqldn);
             return kq;
         }
