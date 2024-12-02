@@ -38,6 +38,8 @@
             this.btnthem = new System.Windows.Forms.Button();
             this.btnxoa = new System.Windows.Forms.Button();
             this.btnsua = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btn_thoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,11 +133,33 @@
             this.btnsua.UseVisualStyleBackColor = true;
             this.btnsua.Click += new System.EventHandler(this.btnsua_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(226, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(333, 36);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "QUẢN LÝ TÀI KHOẢN";
+            // 
+            // btn_thoat
+            // 
+            this.btn_thoat.Location = new System.Drawing.Point(698, 39);
+            this.btn_thoat.Name = "btn_thoat";
+            this.btn_thoat.Size = new System.Drawing.Size(75, 23);
+            this.btn_thoat.TabIndex = 11;
+            this.btn_thoat.Text = "Thoát";
+            this.btn_thoat.UseVisualStyleBackColor = true;
+            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
+            // 
             // QL_TaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_thoat);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnsua);
             this.Controls.Add(this.btnxoa);
             this.Controls.Add(this.btnthem);
@@ -167,5 +191,7 @@
         private System.Windows.Forms.Button btnthem;
         private System.Windows.Forms.Button btnxoa;
         private System.Windows.Forms.Button btnsua;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_thoat;
     }
 }

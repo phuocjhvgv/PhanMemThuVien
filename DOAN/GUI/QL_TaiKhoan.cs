@@ -1,4 +1,5 @@
-﻿using DOAN.BLL;
+﻿using DevExpress.XtraWaitForm;
+using DOAN.BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,8 +8,10 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DOAN.GUI
@@ -44,6 +47,11 @@ namespace DOAN.GUI
             }
             return true;
         }
+        private bool KhongChuaKyTuDacBiet(string input)
+        {
+            string pattern = @"^[a-zA-Z0-9_]+$";
+            return Regex.IsMatch(input, pattern);
+        }
 
         private void btnthem_Click(object sender, EventArgs e)
         {
@@ -52,14 +60,20 @@ namespace DOAN.GUI
                 string idtaikhoan   = txtmatk.Text;
                 string tentk = txttentk.Text;
                 string mk = txtmk.Text;
-                
+                if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
+                {
+                    MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (QLTK.KiemTraTaiKhoan(idtaikhoan,tentk))
                 {
-                    MessageBox.Show("Mã sách đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
                     QLTK.Themtk(idtaikhoan,tentk,mk);
+                    MessageBox.Show("Thêm tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dtgrv.DataSource = QLTK.loadtk();
                 }
             }
             else
@@ -78,12 +92,18 @@ namespace DOAN.GUI
         {
             if (checksua()) 
             {
+
                 string idtaikhoan = txtmatk.Text;
                 string tentk = txttentk.Text;
                 string mk = txtmk.Text;
 
                 bool isUpdated = QLTK.CapNhatTaiKhoan(idtaikhoan, tentk, mk);
 
+                if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
+                {
+                    MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (isUpdated)
                 {
                     MessageBox.Show("Cập nhật tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -103,32 +123,61 @@ namespace DOAN.GUI
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
-            if (dtgrv.SelectedRows.Count > 0)
+            string idtaikhoan = txtmatk.Text.Trim();
+
+            if (string.IsNullOrEmpty(idtaikhoan))
             {
-                string idtaikhoan = dtgrv.SelectedRows[0].Cells["IdTaiKhoan"].Value.ToString();
+                MessageBox.Show("Vui lòng nhập mã tài khoản để xóa.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa tài khoản này?",
-                                                       "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (!KhongChuaKyTuDacBiet(idtaikhoan))
+            {
+                MessageBox.Show("Mã tài khoản không được chứa ký tự đặc biệt.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                if (result == DialogResult.Yes)
+
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa tài khoản này?",
+                                                  "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                try
                 {
-                    bool isDeleted = QLTK.XoaTaiKhoan(idtaikhoan);
 
-                    if (isDeleted)
-                    {
-                        MessageBox.Show("Tài khoản đã được xóa thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    QLTK.Xoatk(idtaikhoan);
 
-                        dtgrv.DataSource = QLTK.loadtk();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy tài khoản cần xóa.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
+
+                    MessageBox.Show("Tài khoản đã được xóa thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dtgrv.DataSource = QLTK.loadtk();
                 }
+                catch (Exception ex)
+                {
+                    
+                    MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+        }
+
+        private void btn_thoat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+       "Bạn có chắc chắn muốn thoát không?",
+       "Xác nhận thoát",
+       MessageBoxButtons.YesNo,
+       MessageBoxIcon.Question
+   );
+
+            if (result == DialogResult.Yes)
+            {
+
+                this.Close();
             }
             else
             {
-                MessageBox.Show("Vui lòng chọn tài khoản cần xóa.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
         }
     }

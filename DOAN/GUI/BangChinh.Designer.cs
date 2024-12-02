@@ -146,6 +146,7 @@
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
             this.toolStripMenuItem10.Size = new System.Drawing.Size(121, 54);
             this.toolStripMenuItem10.Text = "NXBQL ";
+            this.toolStripMenuItem10.Click += new System.EventHandler(this.toolStripMenuItem10_Click);
             // 
             // toolStripMenuItem11
             // 

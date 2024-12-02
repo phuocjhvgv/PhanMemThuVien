@@ -52,8 +52,17 @@
     <StartupObject>DOAN.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.Desktop.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,13 +76,7 @@
   <ItemGroup>
     <Compile Include="BLL\BLL_DangNhap.cs" />
     <Compile Include="BLL\BLL_QLTAIKHOAN.cs" />
-    <Compile Include="BLL\BLL_Sach.cs" />
-    <Compile Include="BLL\BLL_SachThue.cs" />
-    <Compile Include="BLL\BLL_SinhVien.cs" />
     <Compile Include="DAL\DAL_DangNhap.cs" />
-    <Compile Include="DAL\DAL_Sach.cs" />
-    <Compile Include="DAL\DAL_SachThue.cs" />
-    <Compile Include="DAL\DAL_SinhVien.cs" />
     <Compile Include="DAL\DAL_QLTAIKHOAN.cs" />
     <Compile Include="DAL\LopDungChung.cs" />
     <Compile Include="GUI\BangChinh.cs">
@@ -81,12 +84,6 @@
     </Compile>
     <Compile Include="GUI\BangChinh.Designer.cs">
       <DependentUpon>BangChinh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\ChiTietThueTraSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\ChiTietThueTraSach.Designer.cs">
-      <DependentUpon>ChiTietThueTraSach.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\DangKy.cs">
       <SubType>Form</SubType>
@@ -106,49 +103,10 @@
     <Compile Include="GUI\QL_TaiKhoan.Designer.cs">
       <DependentUpon>QL_TaiKhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\SachDaThue.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\SachDaThue.Designer.cs">
-      <DependentUpon>SachDaThue.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\SachDaTra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\SachDaTra.Designer.cs">
-      <DependentUpon>SachDaTra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\ThemSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\ThemSach.Designer.cs">
-      <DependentUpon>ThemSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\ThemSinhVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\ThemSinhVien.Designer.cs">
-      <DependentUpon>ThemSinhVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\ThongTinSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\ThongTinSach.Designer.cs">
-      <DependentUpon>ThongTinSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\ThongTinSinhVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\ThongTinSinhVien.Designer.cs">
-      <DependentUpon>ThongTinSinhVien.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\BangChinh.resx">
       <DependentUpon>BangChinh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ChiTietThueTraSach.resx">
-      <DependentUpon>ChiTietThueTraSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
@@ -158,24 +116,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\QL_TaiKhoan.resx">
       <DependentUpon>QL_TaiKhoan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\SachDaThue.resx">
-      <DependentUpon>SachDaThue.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\SachDaTra.resx">
-      <DependentUpon>SachDaTra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ThemSach.resx">
-      <DependentUpon>ThemSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ThemSinhVien.resx">
-      <DependentUpon>ThemSinhVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ThongTinSach.resx">
-      <DependentUpon>ThongTinSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ThongTinSinhVien.resx">
-      <DependentUpon>ThongTinSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
