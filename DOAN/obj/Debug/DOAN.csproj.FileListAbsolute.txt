@@ -82,3 +82,4 @@ C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\obj\Debug\DOAN.csproj.GenerateRes
 C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\obj\Debug\DOAN.csproj.CoreCompileInputs.cache
 C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\obj\Debug\DOAN.exe
 C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\obj\Debug\DOAN.pdb
+C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\obj\Debug\DOAN.GUI.QL_TaiKhoan.resources

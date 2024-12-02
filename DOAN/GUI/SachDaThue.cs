@@ -63,5 +63,10 @@ namespace DOAN.GUI
             int tongSo = blST.demSachThue();
             lbl_SoLuong.Text = tongSo.ToString();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

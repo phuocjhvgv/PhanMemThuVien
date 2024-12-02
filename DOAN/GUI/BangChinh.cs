@@ -74,5 +74,12 @@ namespace DOAN.GUI
             if (MessageBox.Show("Ban Co Muon Thoat Khong?", "Thong Bao", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 Application.Exit();
         }
+
+        private void toolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            QL_TaiKhoan QLTK = new QL_TaiKhoan();
+            QLTK.ShowDialog();
+        }
     }
-}
+    }
+
