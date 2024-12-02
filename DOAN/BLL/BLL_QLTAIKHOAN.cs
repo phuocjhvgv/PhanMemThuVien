@@ -40,12 +40,8 @@ namespace DOAN.BLL
                 }
             }
         }
-        private bool KhongChuaKyTuDacBiet(string input)
-        {
 
-            string pattern = @"^[a-zA-Z0-9_]+$";
-            return Regex.IsMatch(input, pattern);
-        }
+
         public bool CapNhatTaiKhoan(string idtaikhoan, string tentk, string mk)
         {
             string query = "UPDATE TaiKhoan SET idtaikhoan = @idtaikhoan, tentk = @tentk, mk = @mk WHERE idtaikhoan = @idtaikhoan";

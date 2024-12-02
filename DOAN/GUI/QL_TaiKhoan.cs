@@ -55,21 +55,22 @@ namespace DOAN.GUI
 
         private void btnthem_Click(object sender, EventArgs e)
         {
+            string idtaikhoan = txtmatk.Text;
+            string tentk = txttentk.Text;
+            string mk = txtmk.Text;
             if (check())
             {
-                string idtaikhoan   = txtmatk.Text;
-                string tentk = txttentk.Text;
-                string mk = txtmk.Text;
-                if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
+
+                 if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
                 {
                     MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                if (QLTK.KiemTraTaiKhoan(idtaikhoan,tentk))
+                else if (QLTK.KiemTraTaiKhoan(idtaikhoan,tentk))
                 {
                     MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                else
+                else 
                 {
                     QLTK.Themtk(idtaikhoan,tentk,mk);
                     MessageBox.Show("Thêm tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
