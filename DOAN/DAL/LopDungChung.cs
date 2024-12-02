@@ -11,7 +11,7 @@ namespace DOAN.DAL
 {
     internal class LopDungChung
     {
-        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Coding\.net\backup\DOAN\DOAN\QLThuVien.mdf;Integrated Security=True";
+        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\win\source\repos\PhanMemThuVien\DOAN\QLThuVien.mdf;Integrated Security=True";
         SqlConnection conn;
 
         public LopDungChung()

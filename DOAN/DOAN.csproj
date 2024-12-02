@@ -69,10 +69,18 @@
     <Compile Include="BLL\BLL_Sach.cs" />
     <Compile Include="BLL\BLL_SachThue.cs" />
     <Compile Include="BLL\BLL_SinhVien.cs" />
+    <Compile Include="BLL\BLL_TheLoai.cs" />
+    <Compile Include="BLL\git.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BLL\git.Designer.cs">
+      <DependentUpon>git.cs</DependentUpon>
+    </Compile>
     <Compile Include="DAL\DAL_DangNhap.cs" />
     <Compile Include="DAL\DAL_Sach.cs" />
     <Compile Include="DAL\DAL_SachThue.cs" />
     <Compile Include="DAL\DAL_SinhVien.cs" />
+    <Compile Include="DAL\DAL_TheLoaiSach.cs" />
     <Compile Include="DAL\LopDungChung.cs" />
     <Compile Include="GUI\BangChinh.cs">
       <SubType>Form</SubType>
@@ -109,6 +117,12 @@
     </Compile>
     <Compile Include="GUI\SachDaTra.Designer.cs">
       <DependentUpon>SachDaTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TheLoaiSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TheLoaiSach.Designer.cs">
+      <DependentUpon>TheLoaiSach.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\ThemSach.cs">
       <SubType>Form</SubType>
@@ -153,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SachDaTra.resx">
       <DependentUpon>SachDaTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TheLoaiSach.resx">
+      <DependentUpon>TheLoaiSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ThemSach.resx">
       <DependentUpon>ThemSach.cs</DependentUpon>
