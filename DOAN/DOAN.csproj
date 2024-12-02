@@ -66,13 +66,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\BLL_DangNhap.cs" />
+    <Compile Include="BLL\BLL_NhaXuatBan.cs" />
     <Compile Include="BLL\BLL_Sach.cs" />
     <Compile Include="BLL\BLL_SachThue.cs" />
     <Compile Include="BLL\BLL_SinhVien.cs" />
+    <Compile Include="BLL\BLL_TacGia.cs" />
     <Compile Include="DAL\DAL_DangNhap.cs" />
+    <Compile Include="DAL\DAL_NhaXuatBan.cs" />
     <Compile Include="DAL\DAL_Sach.cs" />
     <Compile Include="DAL\DAL_SachThue.cs" />
     <Compile Include="DAL\DAL_SinhVien.cs" />
+    <Compile Include="DAL\DAL_TacGia.cs" />
     <Compile Include="DAL\LopDungChung.cs" />
     <Compile Include="GUI\BangChinh.cs">
       <SubType>Form</SubType>
@@ -97,6 +101,18 @@
     </Compile>
     <Compile Include="GUI\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLNXB.Designer.cs">
+      <DependentUpon>QLNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLTacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLTacGia.Designer.cs">
+      <DependentUpon>QLTacGia.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\SachDaThue.cs">
       <SubType>Form</SubType>
@@ -147,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLNXB.resx">
+      <DependentUpon>QLNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLTacGia.resx">
+      <DependentUpon>QLTacGia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SachDaThue.resx">
       <DependentUpon>SachDaThue.cs</DependentUpon>
