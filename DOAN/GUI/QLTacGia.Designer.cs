@@ -101,6 +101,7 @@
             this.btn_themTG.TabIndex = 5;
             this.btn_themTG.Text = "Thêm";
             this.btn_themTG.UseVisualStyleBackColor = true;
+            this.btn_themTG.Click += new System.EventHandler(this.btn_themTG_Click);
             // 
             // btn_timkiemTG
             // 
@@ -110,6 +111,7 @@
             this.btn_timkiemTG.TabIndex = 6;
             this.btn_timkiemTG.Text = "Tìm kiếm";
             this.btn_timkiemTG.UseVisualStyleBackColor = true;
+            this.btn_timkiemTG.Click += new System.EventHandler(this.btn_timkiemTG_Click);
             // 
             // btn_sua
             // 
@@ -119,6 +121,7 @@
             this.btn_sua.TabIndex = 7;
             this.btn_sua.Text = "Sửa";
             this.btn_sua.UseVisualStyleBackColor = true;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // btn_xoa
             // 
@@ -128,6 +131,7 @@
             this.btn_xoa.TabIndex = 8;
             this.btn_xoa.Text = "Xóa";
             this.btn_xoa.UseVisualStyleBackColor = true;
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
             // 
             // txt_timkiemTG
             // 
@@ -165,6 +169,7 @@
             this.btn_thoat.TabIndex = 13;
             this.btn_thoat.Text = "Thoát";
             this.btn_thoat.UseVisualStyleBackColor = true;
+            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
             // 
             // QLTacGia
             // 
@@ -187,6 +192,7 @@
             this.Controls.Add(this.dgrd_TG);
             this.Name = "QLTacGia";
             this.Text = "QLTacGia";
+            this.Load += new System.EventHandler(this.QLTacGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgrd_TG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

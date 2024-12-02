@@ -17,8 +17,8 @@ namespace DOAN.DAL
         }
         public DataTable loadNXB()
         {
-            string loadStudent = "Select *from NhaXuatBan";
-            return lopchung.loadGrid(loadStudent);
+            string loadNXB = "Select *from NhaXuatBan";
+            return lopchung.loadGrid(loadNXB);
         }
         public void addNXB(string idNxb, string tenNxb)
         {
@@ -27,7 +27,7 @@ namespace DOAN.DAL
         }
         public void deleteNXB(string idNxb)
         {
-            string sqlDelete = "Delete SinhVien Where ID_NHAXB= '" + idNxb + "'";
+            string sqlDelete = "Delete NhaXuatBan Where ID_NHAXB= '" + idNxb + "'";
             lopchung.nonQuery(sqlDelete);
         }
         public void updateNXB(string idNxb, string tenNxb)
