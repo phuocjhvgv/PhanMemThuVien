@@ -36,8 +36,8 @@ namespace DOAN.GUI
 
         private void addStudentToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_ThemSinhVien themSinhVien = new frm_ThemSinhVien();
-            themSinhVien.ShowDialog();
+            QLSinhVien SinhVien = new QLSinhVien(); 
+            SinhVien.ShowDialog();
         }
 
         private void issueBooksToolStripMenuItem_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace DOAN.GUI
 
         private void viewStudentInfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_ThongTinSinhVien tt = new frm_ThongTinSinhVien();
+            QLSinhVien tt = new QLSinhVien();
             tt.ShowDialog();
         }
     }
