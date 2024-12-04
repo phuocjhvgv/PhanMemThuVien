@@ -76,8 +76,10 @@
   <ItemGroup>
     <Compile Include="BLL\BLL_DangNhap.cs" />
     <Compile Include="BLL\BLL_QLTAIKHOAN.cs" />
+    <Compile Include="BLL\BLL_SinhVien.cs" />
     <Compile Include="DAL\DAL_DangNhap.cs" />
     <Compile Include="DAL\DAL_QLTAIKHOAN.cs" />
+    <Compile Include="DAL\DAL_SinhVien.cs" />
     <Compile Include="DAL\LopDungChung.cs" />
     <Compile Include="GUI\BangChinh.cs">
       <SubType>Form</SubType>
@@ -97,6 +99,12 @@
     <Compile Include="GUI\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\QLSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLSinhVien.Designer.cs">
+      <DependentUpon>QLSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\QL_TaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLSinhVien.resx">
+      <DependentUpon>QLSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\QL_TaiKhoan.resx">
       <DependentUpon>QL_TaiKhoan.cs</DependentUpon>

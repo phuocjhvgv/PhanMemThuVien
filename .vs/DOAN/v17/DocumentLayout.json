@@ -1,61 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\bll\\bll_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\bll\\bll_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\asus\\source\\repos\\phanmemthuvien\\doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\dal\\dal_qltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\dal\\dal_qltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\bll\\bll_qltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\lenovo\\source\\repos\\phanmemthuvien\\doan\\bll\\bll_qltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\bll\\bll_qltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\bll\\bll_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|c:\\users\\lenovo\\source\\repos\\phanmemthuvien\\doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\ql_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\bangchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\bll\\bll_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\bll\\bll_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\dal\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\dal\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\dal\\dal_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\dal\\dal_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\dal\\dal_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\CONGCU\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{021C3620-0B88-4BEF-A1ED-77F7BA27F93A}|DOAN\\DOAN.csproj|solutionrelative:doan\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,12 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -81,25 +69,68 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\Program.cs",
+              "RelativeDocumentMoniker": "DOAN\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\Program.cs",
+              "RelativeToolTip": "DOAN\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:22:22.435Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\Program.cs",
-              "RelativeDocumentMoniker": "DOAN\\Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\Program.cs",
-              "RelativeToolTip": "DOAN\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BLL_QLTAIKHOAN.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
+              "RelativeDocumentMoniker": "DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
+              "RelativeToolTip": "DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T09:52:40.249Z",
+              "WhenOpened": "2024-12-02T04:55:16.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BLL_SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_SinhVien.cs",
+              "RelativeDocumentMoniker": "DOAN\\BLL\\BLL_SinhVien.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_SinhVien.cs",
+              "RelativeToolTip": "DOAN\\BLL\\BLL_SinhVien.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:59:47.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QLSinhVien.cs",
+              "RelativeDocumentMoniker": "DOAN\\GUI\\QLSinhVien.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QLSinhVien.cs",
+              "RelativeToolTip": "DOAN\\GUI\\QLSinhVien.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:19:55.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "QL_TaiKhoan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\QL_TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs [Design]",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\QL_TaiKhoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T03:40:00.575Z",
@@ -107,75 +138,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QL_TaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs",
-              "RelativeDocumentMoniker": "DOAN\\GUI\\QL_TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\QL_TaiKhoan.cs",
-              "RelativeToolTip": "DOAN\\GUI\\QL_TaiKhoan.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswIQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:14:04.928Z",
+              "DocumentIndex": 10,
+              "Title": "DocumentLayout.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json",
+              "RelativeDocumentMoniker": ".vs\\CONGCU\\v17\\DocumentLayout.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json",
+              "RelativeToolTip": ".vs\\CONGCU\\v17\\DocumentLayout.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T14:53:13.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BangChinh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
-              "RelativeDocumentMoniker": "DOAN\\GUI\\BangChinh.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs [Design]*",
-              "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:15:26.973Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BangChinh.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\BangChinh.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs*",
-              "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs*",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwB8AAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\BangChinh.cs",
+              "RelativeToolTip": "DOAN\\GUI\\BangChinh.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAywB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T03:41:31.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DAL_QLTAIKHOAN.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_QLTAIKHOAN.cs",
-              "RelativeDocumentMoniker": "DOAN\\DAL\\DAL_QLTAIKHOAN.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_QLTAIKHOAN.cs",
-              "RelativeToolTip": "DOAN\\DAL\\DAL_QLTAIKHOAN.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:17:48.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BLL_QLTAIKHOAN.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
-              "RelativeDocumentMoniker": "DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
-              "RelativeToolTip": "DOAN\\BLL\\BLL_QLTAIKHOAN.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T04:55:16.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "BLL_DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_DangNhap.cs",
               "RelativeDocumentMoniker": "DOAN\\BLL\\BLL_DangNhap.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_DangNhap.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\BLL\\BLL_DangNhap.cs",
               "RelativeToolTip": "DOAN\\BLL\\BLL_DangNhap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,11 +177,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\DangNhap.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs [Design]",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T23:07:43.222Z",
@@ -196,11 +189,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangKy.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangKy.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\DangKy.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangKy.cs [Design]",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangKy.cs [Design]",
               "RelativeToolTip": "DOAN\\GUI\\DangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T02:25:31.891Z",
@@ -208,52 +201,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LopDungChung.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\LopDungChung.cs",
-              "RelativeDocumentMoniker": "DOAN\\DAL\\LopDungChung.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\LopDungChung.cs",
-              "RelativeToolTip": "DOAN\\DAL\\LopDungChung.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACkAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "DAL_DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_DangNhap.cs",
+              "RelativeDocumentMoniker": "DOAN\\DAL\\DAL_DangNhap.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_DangNhap.cs",
+              "RelativeToolTip": "DOAN\\DAL\\DAL_DangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:08:07.426Z"
+              "WhenOpened": "2024-12-02T03:18:21.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DAL_DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_DangNhap.cs",
-              "RelativeDocumentMoniker": "DOAN\\DAL\\DAL_DangNhap.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\DAL\\DAL_DangNhap.cs",
-              "RelativeToolTip": "DOAN\\DAL\\DAL_DangNhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:18:21.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
               "RelativeDocumentMoniker": "DOAN\\GUI\\DangNhap.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\PhanMemThuVien\\DOAN\\GUI\\DangNhap.cs",
               "RelativeToolTip": "DOAN\\GUI\\DangNhap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T23:07:46.047Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DocumentLayout.json",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json",
-              "RelativeDocumentMoniker": ".vs\\CONGCU\\v17\\DocumentLayout.json",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PhanMemThuVien\\.vs\\CONGCU\\v17\\DocumentLayout.json",
-              "RelativeToolTip": ".vs\\CONGCU\\v17\\DocumentLayout.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T14:53:13.416Z"
             }
           ]
         }
