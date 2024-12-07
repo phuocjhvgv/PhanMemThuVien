@@ -100,16 +100,16 @@ namespace DOAN.GUI
                 MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else if (QLTK.KiemTraTaiKhoan(idtaikhoan, tenDangNhap))
-            {
-                MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+
             else if (string.IsNullOrEmpty(idtaikhoan) || string.IsNullOrEmpty(tenDangNhap) || string.IsNullOrEmpty(matKhau))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            if (QLTK.KiemTraTaiKhoan(idtaikhoan, tenDangNhap))
+            {
+                MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\QLThuVien.mdf;Integrated Security=True";
 
 
@@ -141,7 +141,8 @@ namespace DOAN.GUI
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi kết nối: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
             }
         }

@@ -109,7 +109,6 @@
             this.txt_MatKhau.ForeColor = System.Drawing.Color.Black;
             this.txt_MatKhau.Location = new System.Drawing.Point(296, 336);
             this.txt_MatKhau.Name = "txt_MatKhau";
-            this.txt_MatKhau.PasswordChar = '*';
             this.txt_MatKhau.Size = new System.Drawing.Size(222, 23);
             this.txt_MatKhau.TabIndex = 31;
             this.txt_MatKhau.UseSystemPasswordChar = true;
