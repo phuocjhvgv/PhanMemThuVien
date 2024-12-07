@@ -8,14 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace DOAN.GUI
 {
     public partial class frm_DangKy : Form
     {
+        BLL.BLL_QLTAIKHOAN QLTK;
         public frm_DangKy()
         {
             InitializeComponent();
+            QLTK = new BLL.BLL_QLTAIKHOAN();
         }
         DAL.LopDungChung lopchung;
         private void button2_Click(object sender, EventArgs e)
@@ -80,19 +83,33 @@ namespace DOAN.GUI
         {
 
         }
-
+        private bool KhongChuaKyTuDacBiet(string input)
+        {
+            string pattern = @"^[a-zA-Z0-9_]+$";
+            return Regex.IsMatch(input, pattern);
+        }
         private void btn_Dky_Click_1(object sender, EventArgs e)
         {
             string idtaikhoan = txtidtaikhoan.Text;
             string tenDangNhap = txt_TaiKhoan.Text;
             string matKhau = txt_MatKhau.Text;
 
-            if (string.IsNullOrEmpty(idtaikhoan) || string.IsNullOrEmpty(tenDangNhap) || string.IsNullOrEmpty(matKhau))
+            
+             if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tenDangNhap))
+            {
+                MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            else if (string.IsNullOrEmpty(idtaikhoan) || string.IsNullOrEmpty(tenDangNhap) || string.IsNullOrEmpty(matKhau))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            if (QLTK.KiemTraTaiKhoan(idtaikhoan, tenDangNhap))
+            {
+                MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\PhanMemThuVien\DOAN\QLThuVien.mdf;Integrated Security=True";
 
 
@@ -124,7 +141,8 @@ namespace DOAN.GUI
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi kết nối: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
             }
         }
