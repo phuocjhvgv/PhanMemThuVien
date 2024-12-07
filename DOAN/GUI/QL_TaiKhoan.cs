@@ -41,8 +41,22 @@ namespace DOAN.GUI
         }
         public bool check()
         {
-            if (txtmatk.Text == "" && txttentk.Text == "" && txtmk.Text == "" )
+            if (string.IsNullOrWhiteSpace(txtmatk.Text))
             {
+                MessageBox.Show("Vui lòng nhập mã tài khoản!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtmatk.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txttentk.Text))
+            {
+                MessageBox.Show("Vui lòng nhập tên tài khoản!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txttentk.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtmk.Text))
+            {
+                MessageBox.Show("Vui lòng nhập mật khẩu!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtmk.Focus();
                 return false;
             }
             return true;
@@ -55,69 +69,74 @@ namespace DOAN.GUI
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            if (check())
+            if (!check()) return; // Dừng nếu không thỏa mãn điều kiện nhập
+
+            string idtaikhoan = txtmatk.Text.Trim();
+            string tentk = txttentk.Text.Trim();
+            string mk = txtmk.Text.Trim();
+
+            if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
             {
-                string idtaikhoan   = txtmatk.Text;
-                string tentk = txttentk.Text;
-                string mk = txtmk.Text;
-                if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
-                {
-                    MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                if (QLTK.KiemTraTaiKhoan(idtaikhoan,tentk))
-                {
-                    MessageBox.Show("Mã đã tồn tại. Vui lòng nhập mã sách khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-                else
-                {
-                    QLTK.Themtk(idtaikhoan,tentk,mk);
-                    MessageBox.Show("Thêm tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dtgrv.DataSource = QLTK.loadtk();
-                }
+                MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+            if (QLTK.KiemTraTaiKhoan(idtaikhoan, tentk))
             {
-                MessageBox.Show("Nhập đầy đủ thông tin", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Mã tài khoản hoặc tên tài khoản đã tồn tại. Vui lòng nhập giá trị khác.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            QLTK.Themtk(idtaikhoan, tentk, mk);
+            MessageBox.Show("Thêm tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            dtgrv.DataSource = QLTK.loadtk();
         }
         private bool checksua()
         {
-            return !string.IsNullOrWhiteSpace(txtmatk.Text) &&
-                   !string.IsNullOrWhiteSpace(txttentk.Text) &&
-                   !string.IsNullOrWhiteSpace(txtmk.Text);
+            if (string.IsNullOrWhiteSpace(txtmatk.Text))
+            {
+                MessageBox.Show("Vui lòng nhập mã tài khoản cần sửa!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtmatk.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txttentk.Text))
+            {
+                MessageBox.Show("Vui lòng nhập tên tài khoản cần sửa!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txttentk.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtmk.Text))
+            {
+                MessageBox.Show("Vui lòng nhập mật khẩu mới!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtmk.Focus();
+                return false;
+            }
+            return true;
         }
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            if (checksua()) 
+            if (!checksua()) return; 
+
+            string idtaikhoan = txtmatk.Text.Trim();
+            string tentk = txttentk.Text.Trim();
+            string mk = txtmk.Text.Trim();
+
+            if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
             {
+                MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                string idtaikhoan = txtmatk.Text;
-                string tentk = txttentk.Text;
-                string mk = txtmk.Text;
-
-                bool isUpdated = QLTK.CapNhatTaiKhoan(idtaikhoan, tentk, mk);
-
-                if (!KhongChuaKyTuDacBiet(idtaikhoan) || !KhongChuaKyTuDacBiet(tentk))
-                {
-                    MessageBox.Show("Không được nhập ký tự đặc biệt trong ID tài khoản hoặc Tên tài khoản.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                if (isUpdated)
-                {
-                    MessageBox.Show("Cập nhật tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    dtgrv.DataSource = QLTK.loadtk();
-                }
-                else
-                {
-                    MessageBox.Show("Không tìm thấy tài khoản cần cập nhật.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+            bool isUpdated = QLTK.CapNhatTaiKhoan(idtaikhoan, tentk, mk);
+            if (isUpdated)
+            {
+                MessageBox.Show("Cập nhật tài khoản thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dtgrv.DataSource = QLTK.loadtk();
             }
             else
             {
-                MessageBox.Show("Nhập đầy đủ thông tin", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Không tìm thấy tài khoản cần cập nhật.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -125,9 +144,10 @@ namespace DOAN.GUI
         {
             string idtaikhoan = txtmatk.Text.Trim();
 
-            if (string.IsNullOrEmpty(idtaikhoan))
+            if (string.IsNullOrWhiteSpace(idtaikhoan))
             {
                 MessageBox.Show("Vui lòng nhập mã tài khoản để xóa.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtmatk.Focus();
                 return;
             }
 
@@ -137,27 +157,20 @@ namespace DOAN.GUI
                 return;
             }
 
-
-            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa tài khoản này?",
-                                                  "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa tài khoản này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
                 try
                 {
-
                     QLTK.Xoatk(idtaikhoan);
-
-
                     MessageBox.Show("Tài khoản đã được xóa thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     dtgrv.DataSource = QLTK.loadtk();
                 }
                 catch (Exception ex)
                 {
-                    
                     MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
         }
 

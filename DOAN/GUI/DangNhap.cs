@@ -74,5 +74,10 @@ namespace DOAN.GUI
 				txt_MatKhau.UseSystemPasswordChar = true;
 			}
 		}
-	}
+
+        private void txt_TaiKhoan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
